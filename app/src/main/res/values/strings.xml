@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="Name"><font size="20">Name</font></string>
+    <string name="Phone"><font size="20">Phone</font></string>
+    <string name="Area"><font size="20">Area</font></string>
+    <string name="Address"><font size="20">Address</font></string>
+    <string name="city"><font size="20">city</font></string>
+    <string name="State"><font size="20">State</font></string>
+    <string name="Zip"><font size="20">Zip</font></string>
+    <string name="Email"><font size="20">Email</font></string>
+    <string name="Birthday"><font size="20">Birthday</font></string>
+    <string-array name="State_array">
+        <item>State</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+    </string-array>
+
+    <string-array name="Area_array">
+        <item>Area</item>
+        <item>0044</item>
+        <item>+1</item>
+        <item>+1 340</item>
+        <item>+1 670</item>
+        <item>+1 671</item>
+        <item>+1 787 / 939</item>
+        <item>+1 664</item>
+        <item>+1 809 / 829 / 849</item>
+        <item>+1 876 / 658</item>
+        <item>+1 869</item>
+
+    </string-array>
+
+</resources>
+
+

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_height="match_parent"
+    android:onClick="getBirthdayPicker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/nameimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ic_baseline_person_24"
+                app:tint="@color/Darkgrey" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/Name"
+                android:textColorHint="#575454" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/phoneimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ic_baseline_local_phone_24"
+                app:tint="@color/Darkgrey" />
+
+            <EditText
+                android:id="@+id/PhoneEditText"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/Phone"
+                android:textColorHint="#575454" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="60dp" />
+
+            <Spinner
+                android:id="@+id/areaspinner"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:hint="@string/Area" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/addressimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ic_baseline_place_24"
+                app:tint="@color/Darkgrey" />
+
+            <EditText
+                android:id="@+id/addresstext"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/Address"
+                android:textColorHint="#575454" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cityimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                app:tint="@color/Darkgrey" />
+
+            <EditText
+                android:id="@+id/citytext"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/city"
+                android:textColorHint="#575454" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/stateimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                app:tint="@color/Darkgrey" />
+
+            <Spinner
+                android:id="@+id/spinnerstate"
+                android:layout_width="176dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/State"
+                android:textColorHint="#575454" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="20dp"
+                android:layout_height="60dp" />
+
+            <EditText
+                android:id="@+id/zipstate"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/Zip"
+                android:textColorHint="#575454" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/emailimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ic_baseline_email_24"
+                app:tint="@color/Darkgrey" />
+
+            <EditText
+                android:id="@+id/emailtext"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightgrey"
+                android:foregroundTint="@color/black"
+                android:hint="@string/Email"
+                android:textColorHint="#575454" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/birthdayimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ic_baseline_cake_24"
+                app:tint="@color/Darkgrey" />
+
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightgrey"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/birthdaytext"
+                    android:layout_width="294dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/lightgrey"
+                    android:foregroundTint="@color/black"
+                    android:hint="@string/Birthday"
+                    android:textColorHint="#575454" />
+
+                <ImageButton
+                    android:id="@+id/birthdaypicker"
+                    android:layout_width="55dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="2dp"
+                    android:onClick="getBirthdayPicker"
+                    android:src="@drawable/ic_baseline_calendar_today_24"
+                    app:tint="@color/Darkgrey" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/savebuton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="savePersonData"
+            android:text="Save"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</ScrollView>
