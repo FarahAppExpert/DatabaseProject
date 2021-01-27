@@ -7,6 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
+
     <include
         layout="@layout/application_form"
         android:layout_width="371dp"
