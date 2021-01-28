@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 "StateSpinner.toString()",
                 Zip.getText().toString(),
                 Email.getText().toString(),
-                BirthdayEdittext.toString()
+                BirthdayEdittext.getText().toString()
         );
 
 

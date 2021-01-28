@@ -59,14 +59,12 @@ public class DatabaseListView extends ListActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        getPersonData();
 
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        appDatabase.close();
     }
 
 

@@ -23,31 +23,31 @@ public class Person
     public Person (int ID, String Name, String Phone, String Area, String Address, String City, String State, String Zip,
     String Email, String Birthday)
     {
-        ID = this.ID;
-        Name = this.Name;
-        Phone = this.Phone;
-        Area = this.Area;
-        Address = this.Address;
-        City = this.City;
-        State = this.State;
-        Zip = this.Zip;
-        Email = this.Email;
-        Birthday = this.Birthday;
+        this.ID = ID;
+        this.Name = Name;
+         this.Phone = Phone;
+         this.Area = Area;
+         this.Address = Area;
+         this.City = City;
+         this.State = State;
+         this.Zip = Zip;
+         this.Email = Email;
+         this.Birthday = Birthday;
     }
 
   @Ignore
   public Person (String Name, String Phone, String Area, String Address, String City, String State, String Zip,
                  String Email, String Birthday)
   {
-      Name = this.Name;
-      Phone = this.Phone;
-      Area = this.Area;
-      Address = this.Address;
-      City = this.City;
-      State = this.State;
-      Zip = this.Zip;
-      Email = this.Email;
-      Birthday = this.Birthday;
+      this.Name = Name;
+      this.Phone = Phone;
+      this.Area = Area;
+      this.Address = Area;
+      this.City = City;
+      this.State = State;
+      this.Zip = Zip;
+      this.Email = Email;
+      this.Birthday = Birthday;
   }
 
 

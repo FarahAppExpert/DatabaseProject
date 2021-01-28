@@ -10,9 +10,9 @@ import com.example.project1.PersonBIO.IPersonBIO;
 import com.example.project1.entities.Person;
 
 
-@Database(entities = {Person.class},  version = 2, exportSchema = false)
+@Database(entities = {Person.class},  version = 3, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
-    private static final String DATABASE_NAME= "personlist";
+    private static final String DATABASE_NAME= "personprintlist";
     private static final String LOG_TAG = AppDatabase.class.getName();
 
     private static final Object LOCK = new Object();
